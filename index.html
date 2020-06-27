@@ -30,6 +30,7 @@
     <title>Portfolio</title>
   </head>
   <body>
+    <!-- Navigation -->
     <div class="container navigation pt-3">
       <div class="row">
         <div class="col-6 d-flex justify-content-start align-items-center">
@@ -41,24 +42,24 @@
             class="row text-center p-0 d-flex justify-content-end align-items-center"
           >
             <div class="col-3">
-              <a href="#about" class="text-white navigation-link">About</a>
+              <a href="#about" class="text-white navigation-link">A propos</a>
             </div>
             <div class="col-3">
               <a href="#projects" class="text-white navigation-link"
-                >Projects</a
+                >Projets</a
               >
             </div>
             <div class="col-3">
               <a href="#social-media" class="text-white navigation-link"
-                >Social Media</a
+                >Réseaux Sociaux</a
               >
             </div>
             <div class="col-3">
               <a
-                href="https://packetcode.github.io/web-development-crash-course/resume-mini-project/"
+                href="CV Tristan reconversion pro 4.pdf"
                 target="_blank"
                 class="text-white navigation-link"
-                >Resume</a
+                >Curriculum Vitae</a
               >
             </div>
           </div>
@@ -71,7 +72,7 @@
       <div class="row main_row">
         <div class="col">
           <h2 class="text-white">Hello, je suis</h2>
-          <h1 class="text-warning m-heading">TIEN-MI-TIEE Tristan</h1>
+          <h1 class="text-warning m-heading" id="nom_prenom"></h1>
           <h2 class="text-white">Passioné du Web</h2>
         </div>
       </div>
@@ -80,141 +81,99 @@
     <!-- About Section -->
     <div id="about" class="container about p-5">
       <div class="row">
-        <div class="col-6">
+        <div class="col-4">
           <img src="./images/about_img.svg" class="img-fluid" />
         </div>
-        <div class="col-6 pl-5 pt-5 pb-5 text-white">
-          <h3 class="text-warning">About Me</h3>
-          <h1 class="m-heading">A little bit about me</h1>
+        <div class="col-8 pl-5 pt-5 pb-5 text-white">
+          <h3 class="text-warning">A propos de moi</h3>
+          <h1 class="m-heading">Qui suis-je ?</h1>
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis
-            eligendi natus, ex maiores
-            <b class="text-warning">quaerat provident</b> iusto tenetur vero
-            ipsum. Beatae expedita obcaecati odio dignissimos itaque nulla
-            voluptatum doloremque sed iusto!
+            Réunionnais ayant grandi avec les prémices des <b class="text-warning">jeux vidéos</b> et des <b class="text-warning">ordinateurs</b>
+            je me décide enfin à me lancer à 100 % dans ce monde qui ne cesse d'évoluer
+            pour rendre meilleurs notre quotidien.
           </p>
           <br />
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis
-            magni <b class="text-warning">adipisci sunt eum</b>, reprehenderit
-            dignissimos quaerat maiores ad. Magni, totam iure. Doloribus ea
-            <b class="text-warning">molestiae deleniti</b> excepturi iure neque,
-            harum illum!
+            De nature curieuse, le Web me permet d'en apprendre plus tous les jours.
+            Il y a tellement de savoir à acquérir et à renouveler qu'on est sans cesse, en remise
+            en question !
           </p>
-          <button class="btn btn-outline-warning">Learn More</button>
+          <button class="btn btn-outline-warning">En apprendre plus</button>
         </div>
       </div>
     </div>
 
     <!-- Projects Section -->
     <div id="projects" class="container mt-5 pt-5">
-      <h1 class="text-warning mb-3 pb-2">My Projects</h1>
+      <h1 class="text-warning mb-3 pb-2">Mes projets</h1>
       <div class="row">
         <div class="col-4 mb-5">
           <div class="card" style="width: 18rem;">
-            <img
-              src="./images/messaging.svg"
-              class="card-img-top"
-              style="height: 13rem;"
-              alt="..."
-            />
             <div class="card-body">
               <h5 class="card-title">Messaging Web App</h5>
               <p class="card-text">
                 Some quick example text to build on the card title and make up
                 the bulk of the card's content.
               </p>
-              <a href="https://www.tests-techniques.epizy.com/simplon2/" class="btn btn-warning" target="_blank">See Project</a>
+              <a href="https://www.tests-techniques.epizy.com/simplon2/" class="btn btn-warning" target="_blank">Voir mon projet</a>
             </div>
           </div>
         </div>
         <div class="col-4 mb-5">
           <div class="card" style="width: 18rem;">
-            <img
-              src="./images/fitness.svg"
-              class="card-img-top img-fluid"
-              alt="..."
-              style="height: 13rem;"
-            />
             <div class="card-body">
               <h5 class="card-title">Fitness Web App</h5>
               <p class="card-text">
                 Some quick example text to build on the card title and make up
                 the bulk of the card's content.
               </p>
-              <a href="#" class="btn btn-warning">See Project</a>
+              <a href="#" class="btn btn-warning">Voir mon projet</a>
             </div>
           </div>
         </div>
         <div class="col-4 mb-5">
           <div class="card" style="width: 18rem;">
-            <img
-              src="./images/e_commerce_platform.svg"
-              class="card-img-top"
-              alt="..."
-              style="height: 13rem;"
-            />
             <div class="card-body">
               <h5 class="card-title">E-Commerce Platform</h5>
               <p class="card-text">
                 Some quick example text to build on the card title and make up
                 the bulk of the card's content.
               </p>
-              <a href="#" class="btn btn-warning">See Project</a>
+              <a href="#" class="btn btn-warning">Voir mon projet</a>
             </div>
           </div>
         </div>
         <div class="col-4 mb-5">
           <div class="card" style="width: 18rem;">
-            <img
-              src="./images/music.svg"
-              class="card-img-top"
-              alt="..."
-              style="height: 13rem;"
-            />
             <div class="card-body">
               <h5 class="card-title">Music Player</h5>
               <p class="card-text">
                 Some quick example text to build on the card title and make up
                 the bulk of the card's content.
               </p>
-              <a href="#" class="btn btn-warning">See Project</a>
+              <a href="#" class="btn btn-warning">Voir mon projet</a>
             </div>
           </div>
         </div>
         <div class="col-4 mb-5">
           <div class="card" style="width: 18rem;">
-            <img
-              src="./images/photography.svg"
-              class="card-img-top"
-              alt="..."
-              style="height: 13rem;"
-            />
             <div class="card-body">
-              <h5 class="card-title">Photography Platform</h5>
+              <h5 class="card-title">Bar de LinkedIn</h5>
               <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+                Bar de chargement keyframes en HTML, CSS.
               </p>
-              <a href="#" class="btn btn-warning">See Project</a>
+              <a href="https://tristantmt.github.io/LinkedIn_chargement/" target="_blank" class="btn btn-warning">Voir mon projet</a>
             </div>
           </div>
         </div>
         <div class="col-4 mb-5">
           <div class="card" style="width: 18rem;">
-            <img
-              src="./images/web_scraping.svg"
-              class="card-img-top"
-              alt="..."
-              style="height: 13rem;"
-            />
             <div class="card-body">
-              <h5 class="card-title">Manga Scraping Web App</h5>
+              <h5 class="card-title">Check E-mail</h5>
               <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+                Petit input en HTML, CSS et JavaScript.
               </p>
-              <a href="#" class="btn btn-warning">See Project</a>
+              <a href="https://tristantmt.github.io/check_email/" target="_blank" class="btn btn-warning">Voir mon projet</a>
             </div>
           </div>
         </div>
@@ -224,13 +183,13 @@
     <!-- Social Media Section -->
     <div id="social-media" class="container-fluid">
       <div class="container text-white py-5">
-        <h4 class="text-warning">Social Media</h4>
+        <h4 class="text-warning">Réseaux Sociaux</h4>
         <h1 class="m-heading">Let's be friends</h1>
         <div class="row pt-5">
           <div class="col-3 media_link btn" href="#">
             <div class="row">
               <div class="col-6 d-flex justify-content-start">
-                <h3 class="m-0 pt-2 text-white"><a href="https://www.linkedin.com/in/tristan-tien-mi-tiee-52a65a1aa/" target="_blank">LinkedIn</a></h3>
+                <h3 class="m-0 pt-2 text-white"><a class= "text-white" href="https://www.linkedin.com/in/tristan-tien-mi-tiee-52a65a1aa/" target="_blank">LinkedIn</a></h3>
               </div>
               <div class="col-6 d-flex justify-content-end align-items-center">
                 <i class="fab fa-linkedin-in fa-2x text-secondary"></i>
@@ -241,7 +200,7 @@
           <div class="col-3 media_link btn">
             <div class="row">
               <div class="col-6 d-flex justify-content-start">
-                <h3 class="m-0 pt-2 text-white"><a href="https://github.com/TristanTMT" target="_blank">Github</a></h3>
+                <h3 class="m-0 pt-2 text-white"><a class= "text-white" href="https://github.com/TristanTMT" target="_blank">Github</a></h3>
               </div>
               <div class="col-6 d-flex justify-content-end align-items-center">
                 <i class="fab fa-github fa-2x text-secondary"></i>
@@ -285,5 +244,7 @@
         </h5>
       </div>
     </footer>
+
+    <script src="script.js"></script>
   </body>
 </html>

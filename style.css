@@ -72,3 +72,6 @@ body {
   border: 2px solid #f5ba09;
   border-radius: 0.5rem;
 }
+h3 a:hover{
+  color: white;
+}
